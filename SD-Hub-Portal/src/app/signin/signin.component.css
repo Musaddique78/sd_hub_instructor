@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: #f0d9d9;
     border: 2px solid #1b1a1b; /* Red rose color */
     border-radius: 10px;
     padding: 40px;
@@ -54,5 +54,31 @@ button {
 }
 
 button:hover {
-    background-color: #ce4747;
+    background-color: #9756568a;
+}
+.option{
+    margin-top: 20px;
+}
+.option a {
+display:block;
+color:#ff4d4d;
+text-decoration: none;
+margin-bottom: 10px;
+}
+.option a:hover{
+    text-decoration: underline;
+}
+.options{
+    position: relative;
+
+}
+#forgotpassword{
+    position: absolute;
+    left: 0PX;
+    padding-top: 15px;
+}
+#register{
+    position: absolute;
+    right: 0px;
+    padding-top: 15px;
 }
