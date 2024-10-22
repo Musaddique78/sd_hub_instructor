@@ -19,11 +19,11 @@ body {
     border-radius: 10px;
     padding: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
     text-align: center;
 }
 
-h1 {
+h3 {
     color: #e22d2d; /* Red rose color */
     margin-bottom: 20px;
 }
@@ -43,18 +43,18 @@ input {
 }
 
 button {
-    background-color: #d89ebe; /* Red rose color */
+    background-color:#e26f6f; /* Red rose color */
     color: #ffffff;
     border: none;
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
     cursor: pointer;
-    width: 50%;
+    width: 90%;
 }
 
 button:hover {
-    background-color: #9756568a;
+    background-color: #f51f1ffb;
 }
 .option{
     margin-top: 20px;
@@ -72,13 +72,20 @@ margin-bottom: 10px;
     position: relative;
 
 }
-#forgotpassword{
-    position: absolute;
-    left: 0PX;
-    padding-top: 15px;
-}
+
 #register{
-    position: absolute;
+    position:center;
     right: 0px;
-    padding-top: 15px;
+    padding-top: 20px;
+}
+.reg{
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.forget{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(21, 5, 236);
 }

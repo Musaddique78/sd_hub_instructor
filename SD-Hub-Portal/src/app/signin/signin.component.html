@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGN IN</title>
     <link rel="stylesheet" href="signin.component.css">
 </head>
+
 <body>
     <div class="container">
-        <h1>SD HUB SIGN IN</h1>
+        <h3>SD HUB SIGN IN</h3>
         <form action="#" method="POST">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-
+            <a class="forget" href="/Forgot password" id="forgotpassword">Forgot password?</a>
             <button type="submit">Sign In</button>
         </form>
         <div class="options">
-            <a href="/Forgot password" id="forgotpassword">Forgot password?</a>
-            <a href="/Register" id="register">Registration</a>
+
+            <a class="reg" href="register" id="register"> Don't have an Account? Register Now</a>
 
         </div>
     </div>

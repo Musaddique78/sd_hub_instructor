@@ -1,4 +1,4 @@
-import { Component,OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-registration',
@@ -6,5 +6,5 @@ import { Component,OnInit } from '@angular/core';
   styleUrl: './registration.component.css'
 })
 export class RegistrationComponent {
-  
-   }
+
+}
